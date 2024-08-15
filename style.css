@@ -207,7 +207,7 @@ html {
 
 @media (max-width: 900px) {
   #text_info_small {
-    height: 400px;
+    height: 300px;
     display: block;
   }
 
