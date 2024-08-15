@@ -7,10 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet"><!--Font-->
+
   <script defer src="script.js"></script>
 </head>
 
-<body class="w3-black">
+<body class="w3-black" style="font-family:'Moderustic'" >
 
   <!-- Navbar (sit on top) 
   https://www.w3schools.com/w3css/defaulT.asp classes reference
@@ -30,23 +34,26 @@
   </div>
 
   <!-- Header -->
-  <div id="text_info" class="w3-container w3-white" id="home">
+  <div id="text_info"  id="home">
     <header class="w3-display-container w3-content w3-wide" style="max-width:1564px;" id="home"
       style="background-color: black;">
-      <img class="w3-image" src="images/stars.png" alt="Coffee Shop" width="1500" height="800">
+      <img  class="w3-image"src="images/Nebula.jpg" filter="brightness(100%)" alt="Coffee Shop" width="1500" height="800">
+      <div class="backstar"></div>
       <div class="w3-display-middle w3-margin-top w3-center">
-        <h1 class="w3-xxlarge w3-text-white"> Sierra Janson • CS Undergrad </h1>
-        <p class="w3-large w3-text-white"> machine learning, software development, network security</p>
-        <a href="#contact"><button class="w3-margin-left w3-button w3-white w3-round-xlarge">Contact me!</button></a>
+        <h1 class="w3-xxlarge w3-text-white" id="hyperspace-text"> Sierra Janson • CS Undergrad </h1>
+        <p class="w3-large w3-text-white" id="hyperspace-text"> machine learning, software development, network security</p>
+        <a href="#contact"><button class="w3-margin-left w3-button w3-white w3-round-xlarge" >Contact me!</button></a>
       </div>
     </header>
   </div>
 
   <div id="text_info_small" class="w3-black w3-container w3-padding-32" id="small_header">
     <div class="w3-content" style="max-width:1200px">
+      <img  class="w3-image"src="images/Nebula.jpg" filter="brightness(100%)" alt="Coffee Shop" width="1500" height="800">
+      <div class="backstar"></div>
       <div class="w3-display-middle w3-center">
-      <h1 class="w3-xlarge w3-text-white"> Sierra Janson • CS Undergrad </h1>
-      <p class="w3-large w3-text-white"> deep learning, software development, network security</p>
+      <h1 class="w3-xlarge w3-text-white" id="hyperspace-text"> Sierra Janson • CS Undergrad </h1>
+      <p class="w3-large w3-text-white" id="hyperspace-text"> deep learning, software development, network security</p>
       <a href="#contact"><button class="w3-button w3-white w3-round-small">Contact me!</button></a>
       </div>
     </div>
@@ -137,6 +144,7 @@
     <div class="w3-content" style="max-width:1200px">
       <h3 class="w3-center w3-border-bottom w3-border-light-grey w3-padding-large">Education</h3>
       <section id="timeline">
+        <div class="backstar"></div>
         <ul>
           <li>
             <i class="fa-brands"></i>
@@ -227,27 +235,15 @@
     </div>
   </div>
 
-  <div class="w3-black w3-container w3-padding-32" id="contact">
-    <div class="w3-content" style="max-width:1200px">
-      <h3 class="w3-center w3-padding-large">Contact me!</h3>
-      <div class="w3-row">
-        <div class="w3-col w3-black w3-center">
-          <a href="https://github.com/sierrajanson"target="_blank"><button class="w3-margin-top w3-button w3-white w3-round-xlarge">Github</button></a>
-        </div>
-        <br> </br>
-        <div class="w3-col w3-black w3-center" id="linkedinbtn">
-          <a href="https://www.linkedin.com/in/sierra-j-06175b216/" target="_blank"><button class="w3-cell-middle w3-button w3-white w3-round-xlarge">Linkedin</button></a> 
-
-        </div>
-
-      </div>
-    </div>
-  </div>
-  <!-- Footer -->
   <footer class="w3-center w3-black w3-padding-32">
+    <div class="backstar"></div>
     <p> Thanks for stopping by :o) </p>
-    <a href="#home"><button class="w3-button w3-white w3-large w3-round-xlarge"> ↑ </button></a>
-
+    <a href="#contact"><button class="w3-button w3-white w3-large w3-round-xlarge"> Contact </button></a>
+    <div class="footer-links">
+      <a href="https://github.com/sierrajanson" target="_blank"><button class="w3-button w3-white w3-large w3-round-xlarge">Github</button></a>
+      <a href="https://www.linkedin.com/in/sierra-j-06175b216/" target="_blank"><button class="w3-button w3-white w3-large w3-round-xlarge">Linkedin</button></a>
+    </div>
+    <a href="#home"><button class="w3-button w3-white w3-large w3-round-xlarge"> ↑ Home </button></a>
   </footer>
 
 </body>
